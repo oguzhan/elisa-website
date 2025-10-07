@@ -23,7 +23,7 @@ export async function GET() {
         }}
       >
         <div style={{ fontSize: 56, fontWeight: 800 }}>Elisa Hertzler</div>
-        <div style={{ fontSize: 36, marginTop: 8 }}>Entrepreneur in AI & Growth Strategist</div>
+        <div style={{ fontSize: 34, marginTop: 8 }}>Turning AI into Revenue | GTM Strategy & B2B Sales</div>
         <div style={{ fontSize: 24, color: '#4b5563', marginTop: 24 }}>www.elisahertzler.com</div>
       </div>
     ),

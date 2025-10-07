@@ -14,10 +14,10 @@ export function AboutSection() {
               Driving growth at the intersection of AI and business.
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              I started my career in corporate strategy at TRUMPF, learning to navigate complex stakeholders. Later, I
-              built Peers Solutions, an AI-driven learning venture, securing €5.5M VC funding, scaling ARR by 340%, and
-              selling it in 2025. Today, I combine entrepreneurial drive with deep sales & GTM expertise to help
-              ventures grow internationally.
+              I started my career in corporate strategy at TRUMPF, where I worked with cross-functional teams across R&D, sales, and services to shape new ventures and drive strategic execution. Later, I founded Peers Solutions, an AI-powered B2B learning platform. Over six years, I raised €5.5M in funding, expanded annual revenue to more than €1M, and led the product pivot into AI, increasing ARPU 17x. I closed enterprise deals with clients like Volvo and KUKA, and led the company through to acquisition.
+            </p>
+            <p className="text-gray-600 text-lg leading-relaxed mt-4">
+              Today, I help companies build and scale by leveraging AI at the intersection of product, sales, business processes, and strategy.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               {[
@@ -45,7 +45,8 @@ export function AboutSection() {
           <div className="animate-in fade-in-0 slide-in-from-right-8 duration-700 delay-200">
             <div className="divide-y divide-gray-200">
               {[ 
-                { company: "PEERS SOLUTIONS", role: "Founder & CEO", period: "(2019 - 2025)" },
+                { company: "freelance", role: "AI Product and Growth Strategist", period: "(2025 - TODAY)" },
+                { company: "PEERS SOLUTIONS", role: "Founder and GTM-focused CEO", period: "(2019 - 2025)" },
                 { company: "ENTREPRENEUR ORGANIZATION BERLIN (EO)", role: "Board Member", period: "(2025 - TODAY)" },
                 { company: "TRUMPF", role: "Corporate Development & Strategy Consultant", period: "(2016 - 2019)" },
                 { company: "SRH UNIVERSITY OF APPLIED SCIENCES", role: "Guest Lecturer MBA Classes", period: "(2021 - 2022)" },

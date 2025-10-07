@@ -10,7 +10,7 @@ const HandFont = Island_Moments({ subsets: ['latin'], variable: '--font-hand', w
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.elisahertzler.com'),
   title: {
-    default: 'Elisa Hertzler – Entrepreneur in AI & Growth Strategist',
+    default: 'Elisa Hertzler – Turning AI into Revenue | GTM Strategy & B2B Sales',
     template: '%s | Elisa Hertzler',
   },
   description:
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://www.elisahertzler.com/',
     siteName: 'Elisa Hertzler',
-    title: 'Elisa Hertzler – Entrepreneur in AI & Growth Strategist',
+    title: 'Elisa Hertzler – Turning AI into Revenue | GTM Strategy & B2B Sales',
     description:
       'Entrepreneur in AI and growth strategist. Case studies, portfolio, and ways to work together.',
     images: ['/opengraph-image'],
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@',
     creator: '@',
-    title: 'Elisa Hertzler – Entrepreneur in AI & Growth Strategist',
+    title: 'Elisa Hertzler – Turning AI into Revenue | GTM Strategy & B2B Sales',
     description:
       'Entrepreneur in AI and growth strategist. Case studies, portfolio, and ways to work together.',
     images: ['/placeholder.jpg'],
@@ -63,7 +63,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${HandFont.variable}`}>
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${HandFont.variable}`} suppressHydrationWarning={true}>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -72,7 +72,7 @@ export default function RootLayout({
               '@type': 'Person',
               name: 'Elisa Hertzler',
               url: 'https://www.elisahertzler.com',
-              jobTitle: 'Entrepreneur in AI & Growth Strategist',
+              jobTitle: 'Turning AI into Revenue | GTM Strategy & B2B Sales',
             }),
           }}
         />

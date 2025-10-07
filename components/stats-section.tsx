@@ -53,21 +53,49 @@ export function StatsSection() {
           ))}
         </div>
 
-        {/* Testimonial */}
-        <div className="mt-20 bg-white rounded-2xl p-8 shadow-sm animate-in fade-in-0 slide-in-from-bottom-8 duration-700 delay-600">
-          <div className="flex items-start space-x-4">
-            <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
-              <span className="text-pink-600 text-xl">👤</span>
-            </div>
-            <div>
-              <p className="text-gray-700 text-lg mb-4 italic">
-                "Elisa's growth strategies are truly exceptional. She has a deep understanding of the market and knows how to leverage AI to drive growth."
-              </p>
-              <div>
-                <p className="font-semibold text-black">Oguzhan Yayla</p>
-                <p className="text-gray-500">Co-founder & CTO @ Lucidminds AI</p>
+        {/* Testimonials */}
+        <div className="mt-20">
+          <h3 className="text-2xl font-bold text-black text-center mb-12">What People Say</h3>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                quote: "Elisa combines strategic systems thinking with relentless execution. She's not just a visionary entrepreneur; she gets things done, fast and with impact.",
+                author: "Logan Soya",
+                title: "Founder and CEO of Geofund",
+                context: "Logan mentored Elisa in the early days of Peers."
+              },
+              {
+                quote: "Elisa is a natural ecosystem builder. At EO Berlin, she's been instrumental in scaling our accelerator through meaningful partnerships and smart execution.",
+                author: "Daniel Kollmann",
+                title: "President, EO Berlin",
+                context: "Daniel and Elisa serve together on the board of EO Berlin."
+              },
+              {
+                quote: "Elisa is a top-tier seller: from sharp storytelling to building deep client relationships, she navigates enterprise sales with confidence and skill.",
+                author: "Tine Schmitz",
+                title: "General Partner, Auxxo Female Catalyst Fund",
+                context: "Tine invested in Peers through Auxxo."
+              }
+            ].map((testimonial, index) => (
+              <div key={index} className="bg-white rounded-2xl p-6 shadow-sm animate-in fade-in-0 slide-in-from-bottom-8 duration-700" style={{ animationDelay: `${(index + 6) * 100}ms` }}>
+                <div className="flex flex-col h-full">
+                  <div className="flex items-center space-x-3 mb-4">
+                    <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-pink-600 text-lg">👤</span>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-black text-sm">{testimonial.author}</p>
+                      <p className="text-gray-500 text-xs">{testimonial.title}</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm mb-4 italic flex-grow">
+                    "{testimonial.quote}"
+                  </p>
+                  <p className="text-xs text-gray-400 italic">{testimonial.context}</p>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

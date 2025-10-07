@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { AboutSection } from "@/components/about-section"
 import { PortfolioSection } from "@/components/portfolio-section"
 import { StatsSection } from "@/components/stats-section"
+import { PressCarouselSection } from "@/components/press-carousel-section"
 import { PricingSection } from "@/components/pricing-section"
 import { Footer } from "@/components/footer"
 import type { Metadata } from 'next'
@@ -23,6 +24,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <PortfolioSection />
+      <PressCarouselSection />
       <StatsSection />
       <PricingSection />
       <Footer />
