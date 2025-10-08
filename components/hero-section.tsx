@@ -20,10 +20,14 @@ export function HeroSection() {
           HELLO! I'M ELISA HERTZLER
         </div>
 
+        {/* Subheadline above main heading (slightly larger) */}
+        <p className="text-base md:text-lg lg:text-xl uppercase tracking-widest text-gray-600 mb-3 animate-in fade-in-0 slide-in-from-bottom-5 duration-700 delay-200">
+          GTM Strategy & B2B Sales
+        </p>
+
         {/* Main heading */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-black mb-12 animate-in fade-in-0 slide-in-from-bottom-6 duration-700 delay-200">
-          <span className="block">Entrepeneur in AI</span>
-          <span className="block">& Growth Strategist</span>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] text-black mb-10 animate-in fade-in-0 slide-in-from-bottom-6 duration-700 delay-250 [text-wrap:balance]">
+          <span className="block">Turning AI into Revenue</span>
         </h1>
 
         {/* Profile image */}
@@ -41,9 +45,6 @@ export function HeroSection() {
 
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-in fade-in-0 slide-in-from-bottom-10 duration-700 delay-600">
-          <Button className="px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 gradient-outline bg-transparent text-black">
-            DOWNLOAD CV
-          </Button>
           <Button
             asChild
             variant="outline"
