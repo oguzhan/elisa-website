@@ -14,7 +14,7 @@ export function AboutSection() {
               Driving growth at the intersection of AI and business.
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              I started my career in corporate strategy at TRUMPF, where I worked with cross-functional teams across R&D, sales, and services to shape new ventures and drive strategic execution. Later, I founded Peers Solutions, an AI-powered B2B learning platform. Over six years, I raised €5.5M in funding, expanded annual revenue to more than €1M, and led the product pivot into AI, increasing ARPU 17x. I closed enterprise deals with clients like Volvo and KUKA, and led the company through to acquisition.
+              I started my career in corporate strategy at TRUMPF, where I worked with cross-functional teams across R&D, sales, and services to shape new ventures and drive strategic execution. Later, I founded Peers Solutions, an AI-powered B2B learning platform. Over six years, I built a €5.5M venture-backed business from 0→20 people and led strategic pivots delivering 17x ARPU growth. I closed high-six-figure enterprise deals with clients like Volvo and KUKA, and led the company through to acquisition.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mt-4">
               Today, I help companies build and scale by leveraging AI at the intersection of product, sales, business processes, and strategy.
