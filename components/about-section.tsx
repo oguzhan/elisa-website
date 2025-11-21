@@ -45,8 +45,8 @@ export function AboutSection() {
           <div className="animate-in fade-in-0 slide-in-from-right-8 duration-700 delay-200">
             <div className="divide-y divide-gray-200">
               {[ 
-                { company: "freelance", role: "AI Product and Growth Strategist", period: "(2025 - TODAY)" },
-                { company: "PEERS SOLUTIONS", role: "Founder and GTM-focused CEO", period: "(2019 - 2025)" },
+                { company: "freelance", role: "GTM, Growth and AI Product Strategist", period: "(2025 - TODAY)" },
+                { company: "PEERS SOLUTIONS", role: "Founder and CEO (GTM & Sales)", period: "(2019 - 2025)" },
                 { company: "ENTREPRENEUR ORGANIZATION BERLIN (EO)", role: "Board Member", period: "(2025 - TODAY)" },
                 { company: "TRUMPF", role: "Corporate Development & Strategy Consultant", period: "(2016 - 2019)" },
                 { company: "SRH UNIVERSITY OF APPLIED SCIENCES", role: "Guest Lecturer MBA Classes", period: "(2021 - 2022)" },
