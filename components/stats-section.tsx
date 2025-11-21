@@ -35,7 +35,7 @@ export function StatsSection() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-black mb-6 animate-in fade-in-0 slide-in-from-bottom-4 duration-700">
-            I specialize in blending various disciplines to bring solutions to life.
+            I accelerate growth by combining founder mindset with enterprise execution.
           </h2>
         </div>
 
