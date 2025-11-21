@@ -65,21 +65,21 @@ export function StatsSection() {
                 author: "Logan Soya",
                 title: "Founder and CEO of Geofund",
                 context: "Logan mentored Elisa in the early days of Peers.",
-                image: "/testimonials/logan-soya.jpg"
+                image: "/testimonials/logan-soya.jpeg"
               },
               {
                 quote: "Elisa is a natural ecosystem builder. At EO Berlin, she's been instrumental in scaling our accelerator through meaningful partnerships and smart execution.",
                 author: "Daniel Kollmann",
                 title: "President, EO Berlin",
                 context: "Daniel and Elisa serve together on the board of EO Berlin.",
-                image: "/testimonials/daniel-kollmann.jpg"
+                image: "/testimonials/daniel-kollmann.jpeg"
               },
               {
                 quote: "Elisa is a top-tier seller: from sharp storytelling to building deep client relationships, she navigates enterprise sales with confidence and skill.",
                 author: "Tine Schmitz",
                 title: "General Partner, Auxxo Female Catalyst Fund",
                 context: "Tine invested in Peers through Auxxo.",
-                image: "/testimonials/tine-schmitz.jpg"
+                image: "/testimonials/tine-schmitz.jpeg"
               }
             ].map((testimonial, index) => (
               <div key={index} className="bg-white rounded-2xl p-6 shadow-sm animate-in fade-in-0 slide-in-from-bottom-8 duration-700" style={{ animationDelay: `${(index + 6) * 100}ms` }}>
