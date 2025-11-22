@@ -28,7 +28,7 @@ export function PressCarouselSection() {
     {
       title: "CODE University, Panel, \"Break, learn, scale\" (2025)",
       href: "https://lnkd.in/p/eDb5ciiN",
-      imageSrc: "/press/code-university-panel.jpg",
+      imageSrc: "/press/code-university-panel.jpeg",
     },
     {
       title: "Learntec, \"AI-based skill management and personnel development\" (2024)",
@@ -43,6 +43,7 @@ export function PressCarouselSection() {
     {
       title: "Hinterland of Things, \"How can Germany become the EdTech Leader worldwide\" (2024)",
       href: "https://lnkd.in/p/e9z4swCe",
+      imageSrc: "/press/hinterland-of-things.JPG",
     },
     {
       title: "Raise with Grace: \"Growth, GTM strategies and learnings from entrepreneurial journey\" (2025)",
@@ -66,14 +67,17 @@ export function PressCarouselSection() {
     {
       title: "RTL: Start-Up Magazin – Introducing female Start-Up founders and female investors (2022)",
       href: "https://plus.rtl.de/video-tv/shows/startup-magazin-801014/2022-2-963476/episode-3-thema-ua-investorinnen-wie-frauen-gruenderinnen-und-ihre-ideen-unterstuetzen-916453",
+      imageSrc: "/press/RTL-startup-magazin.JPG",
     },
     {
       title: "Start-Up Insider, the Bullet Proof organization, \"Investor Relationships\" (2023)",
       href: "https://lnk.to/bulletproof-9",
+      imageSrc: "/press/Startup-insider.jpg",
     },
     {
       title: "ARRtist on Air, \"Elisa Hertzler über moderne Weiterbildung, Future Skills und wie ihre KI-gestützte Lernplattform peers helfen kann\" (2022)",
       href: "https://arrtist.podigee.io/33-new-episode",
+      imageSrc: "/press/ARRtist-on-air.jpg",
     },
     {
       title: "Fraunhofer, Future Work Talks, \"AI-based learning paths\" (2021)",
@@ -83,6 +87,7 @@ export function PressCarouselSection() {
     {
       title: "Federal Ministry of Labour and Social Affairs, Panel Talk, \"Is AI good or bad for employees\"? (2019)",
       href: "https://www.plattform-i40.de/IP/Redaktion/DE/Kurzmeldungen/2019/2019-09-25-VA%20Bericht%20Sozialpartnerdialog.html",
+      imageSrc: "/press/federal-ministry-of-labour.jpeg",
     },
   ]
 
@@ -133,10 +138,17 @@ export function PressCarouselSection() {
                             alt={item.title}
                             fill
                             className="object-cover"
+                            unoptimized
+                            onError={(e) => {
+                              const target = e.target as HTMLImageElement
+                              target.style.display = 'none'
+                            }}
                           />
                         </div>
                       ) : (
-                        <div className="relative aspect-[16/9] w-full bg-gray-100" />
+                        <div className="relative aspect-[16/9] w-full bg-gray-100 flex items-center justify-center">
+                          <span className="text-gray-400 text-sm">No image</span>
+                        </div>
                       )}
                       <div className="p-5">
                         <h3 className="text-lg font-semibold text-gray-900 group-hover:underline">
