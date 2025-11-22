@@ -38,7 +38,7 @@ export function PressCarouselSection() {
     {
       title: "Guest Feature in Capital, \"Career change in your mid 30s? Go for it.\" (2024)",
       href: "https://www.capital.de/karriere/berufswechsel-mit-mitte-30--ja-das-geht-34900200.html",
-      imageSrc: "/press/capital-feature.jpg",
+      imageSrc: "/press/capital-feature.png",
     },
     {
       title: "Hinterland of Things, \"How can Germany become the EdTech Leader worldwide\" (2024)",
@@ -63,6 +63,7 @@ export function PressCarouselSection() {
     {
       title: "TV Berlin, \"We need more courage in Start-Up founders\" (2022)",
       href: "https://www.youtube.com/watch?v=f5Vg0ZNNAs0",
+      imageSrc: "/press/tv-berlin.jpg",
     },
     {
       title: "RTL: Start-Up Magazin – Introducing female Start-Up founders and female investors (2022)",
@@ -139,6 +140,7 @@ export function PressCarouselSection() {
                             fill
                             className="object-cover"
                             unoptimized
+                            key={item.imageSrc}
                             onError={(e) => {
                               const target = e.target as HTMLImageElement
                               target.style.display = 'none'
