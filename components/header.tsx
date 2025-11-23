@@ -22,8 +22,8 @@ export function Header() {
             <a href="#home" className="text-gray-700 hover:text-black transition-colors duration-200">
               HOME
             </a>
-            <a href="#portfolio" className="text-gray-700 hover:text-black transition-colors duration-200">
-              PORTFOLIO
+            <a href="#about" className="text-gray-700 hover:text-black transition-colors duration-200">
+              EXPERIENCE
             </a>
             <a href="#portfolio" className="text-gray-700 hover:text-black transition-colors duration-200">
               CASE STUDIES
@@ -64,8 +64,8 @@ export function Header() {
               <a href="#home" className="text-gray-700 hover:text-black transition-colors duration-200">
                 HOME
               </a>
-              <a href="#portfolio" className="text-gray-700 hover:text-black transition-colors duration-200">
-                PORTFOLIO
+              <a href="#about" className="text-gray-700 hover:text-black transition-colors duration-200">
+                EXPERIENCE
               </a>
               <a href="#portfolio" className="text-gray-700 hover:text-black transition-colors duration-200">
                 CASE STUDIES
