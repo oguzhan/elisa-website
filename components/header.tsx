@@ -70,9 +70,6 @@ export function Header() {
               <a href="#portfolio" className="text-gray-700 hover:text-black transition-colors duration-200">
                 CASE STUDIES
               </a>
-              <a href="#blog" className="text-gray-700 hover:text-black transition-colors duration-200">
-                BLOG PAGE
-              </a>
               <a href="#contact" className="text-gray-700 hover:text-black transition-colors duration-200">
                 CONTACT
               </a>
